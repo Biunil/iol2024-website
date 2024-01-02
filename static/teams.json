@@ -1,0 +1,48 @@
+{
+    "countries":[
+        {
+            "name": "Brazil",
+            "flag": "/flags/brazil_flag.png",
+            "teams":[
+                {
+                    "name": "Team 1 Brazil",
+                    "participants": [
+                        "Fulano Um",
+                        "Fulano Dois",
+                        "Fulano Três",
+                        "Fulano Quatro"
+                    ]
+                },
+                {"name": "Team 2 Brazil",
+                "participants": [
+                    "Fulana Um",
+                    "Fulana Dois",
+                    "Fulana Três",
+                    "Fulana Quatro"
+                ]}
+            ]
+        },
+        {
+            "name": "Brazil 2",
+            "flag": "/flags/brazil_flag.png",
+            "teams":[
+                {
+                    "name": "Team 3 Brazil",
+                    "participants": [
+                        "Fulano Um",
+                        "Fulano Dois",
+                        "Fulano Três",
+                        "Fulano Quatro"
+                    ]
+                },
+                {"name": "Team 4 Brazil",
+                "participants": [
+                    "Fulana Um",
+                    "Fulana Dois",
+                    "Fulana Três",
+                    "Fulana Quatro"
+                ]}
+            ]
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{% set data = load_data(path="static/teams.json") %}
+<div>
+  {% for country in data.countries %}
+  <img
+    src="{{ country.flag }}"
+    style="margin: 0 auto; width: 400px; max-width: 100%"
+  />
+  <h1 style="text-align: center; padding: 0; margin: 0">{{ country.name }}</h1>
+  <ul>
+    {% for team in country.teams %}
+    <li>
+      <h2>{{ team.name }}</h2>
+      <ul>
+        {% for participant in team.participants %}
+        <li>{{ participant }}</li>
+        {% endfor %}
+      </ul>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endfor %}
+</div>
